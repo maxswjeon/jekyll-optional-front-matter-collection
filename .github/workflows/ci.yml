@@ -28,9 +28,6 @@ jobs:
         env:
           JEKYLL_VERSION: ${{ matrix.jekyll-version }}
 
-      - name: Install Dependencies
-        run: bundle install
-
       - name: Build
         run: gem build
 
