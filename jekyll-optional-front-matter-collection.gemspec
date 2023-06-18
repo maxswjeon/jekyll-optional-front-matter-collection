@@ -14,7 +14,7 @@ Gem::Specification.new do |spec|
   spec.license       = "MIT"
   spec.required_ruby_version = ">= 2.5"
 
-  spec.add_runtime_dependency "jekyll", "~> 4.3"
+  spec.add_runtime_dependency "jekyll", ">= 3.0", "< 5.0"
   spec.add_development_dependency "rspec", "~> 3.12"
   spec.add_development_dependency "rubocop", "~> 1.45"
   spec.add_development_dependency "rubocop-rspec", "~> 2.22"
